@@ -1,0 +1,32 @@
+void forward() {
+  servoRight.writeMicroseconds(1300);
+  servoLeft.writeMicroseconds(1700);
+}
+void backward() {
+  servoRight.writeMicroseconds(1700);
+  servoLeft.writeMicroseconds(1300);
+}
+void turnLeft() {
+  servoRight.writeMicroseconds(1300);
+  servoLeft.writeMicroseconds(1300);
+}
+void turnRight() {
+  servoRight.writeMicroseconds(1700);
+  servoLeft.writeMicroseconds(1700);
+}
+void carStop() {
+  servoRight.writeMicroseconds(1500);
+  servoLeft.writeMicroseconds(1500);
+}
+void forwardRight() {
+  servoRight.writeMicroseconds(1450);
+  servoLeft.writeMicroseconds(1700);
+}
+void forwardLeft() {
+  servoRight.writeMicroseconds(1300);
+  servoLeft.writeMicroseconds(1550);
+}
+void slowForward() {
+  servoRight.writeMicroseconds(1480);
+  servoLeft.writeMicroseconds(1520);
+}

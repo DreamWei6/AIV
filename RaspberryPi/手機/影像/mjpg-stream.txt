@@ -1,0 +1,21 @@
+=======================安裝套件=======================
+
+sudo apt-get install subversion
+sudo apt-get install libjpeg8-dev
+sudo apt-get install imagemagick
+
+====================建立工作資料夾====================
+
+cd ~
+mkdir webcamwork
+cd webcamwork
+
+=======================下載模組=======================
+
+svn co https://svn.code.sf.net/p/mjpg-streamer/code/ mjpg-streamer
+cd mjpg-streamer/mjpg-streamer
+make
+
+===================啟動mjpg-streamer==================
+
+./mjpg_streamer [-b] -i "./input_uvc.so -y  -r QVGA -f 15" -o "./output_http.so -w ./www"

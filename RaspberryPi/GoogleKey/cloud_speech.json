@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "voice-kit-test-203016",
+  "private_key_id": "5e7ba4b0cb209446a9f8f763bd1ead498647c2b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCblW+zqMBQ69UH\n86Fi12+Ovxd+G6e7t6PaNu9xJtsMG6vWmEegnUSG5xD4PCTawHz4bQkP5ll0k/QN\nSIcD7fzAUHtyIbQy8W2gzympiebDtJxK3syaJXyALGX4VLdTLNZgltt/G6TreL6B\n8gNZ44ym8MwdgcovfubrYRFxpItNogzhN68H9ql7CaKFDhVEi1biGxjMlYZRXL9U\n+L9MW4BsShjvBDCTRnqkqNXm46R1egVYhrdP11ZfK1Kgj9OglBuY4kxschO1l/LD\nRfGylNFJEP4ohgGatCemfoBsjMp7sxVTqlJ+hxzoaLBEcEIo0C9s6wmGsEUgAEVN\nnvxE9Dt3AgMBAAECggEAR+i9PJHx9VTS3P5/aJI/RwBOaOR6VZpOmpSKfcdiNcny\nVdiDPpqBqkJRBxKxTAPsntuydQ1X6jhZ8+vCL5BHIlHwhHNMeME6lLk7Pdd1d53a\nIQayFUrfLNSYersZElHmcbU4FRsfUhA4KRJE9z5ja2NfTAIJg4NJUqBGMjrFgeb7\nrsObX5L2x+TtDd6o2fDdwQ8hUZzjJy705PIe9C7mapyZEOaPBY3pdD19+g14+eCd\nSzsoOqIPJGyHt6TOc7BsiRD/+O9608OrYnXtN5v6NXLNW6ef/qw6OHQPGQH/urXz\nzHHNj2kVMUtA7WOJTq7GOookhtMrMVeBqbqpti6DjQKBgQDYM5VVvRvePR4vJXu5\n04EGU7oKgJfAxJQn8cQWzUysI91VB2gMBpLiRlWbK973IbbSU8GfBXWkOPjlbu+m\nkTWdsVyDq1zpMPrNQ1oU7rRjcluT/UBK12ehgEouXTn5fkWujiz3foZXKd76gCqo\nLFZlfCT5+UpZf9Dy+gtP6MpY4wKBgQC4OUNaU4B9rN1vLuBpz/7G2AsXrh/D/F4i\nu3xT5PANYZBPjH007GX8K75NxXkjbxKe6ntghvn1vXxYqeg7jwEvd1U641MGSvhw\nMncJLWz922Yt6y9NsyiuoErUptuk4Txg49v4TCQt2dDKGYslrvDnqn8RUJNGdC9H\nf4SEGkYbXQKBgQDKOwX22xtUOCshwpgG7BYGSw78f+hzAe3rpzPaeFK9uhZwUKs8\nhHGkglHVAaZf2ANgncPA8aRm5nu6cJhuX+mdBagZ6ZLQ9WXD1rpOVjIZy4Bp3zvi\nRbbD1HKPB9kQzNJ1QrxBDPKwWZQfEP/VqxNtfkBAKrUnHm3euZEXQBL2LQKBgB2I\n+LZjiscbTskDf/EW6qbgfi7GuMsIC+OPoWgl3SKYELXgNTal69fY/4KidUBsD1Ux\nDKS2Hx75yRTB8LyTucHtZNmzFl186YW7YYA0KzQr157nBMd1QMF2a2jac35kqfRy\ns5KESoybTjEIlVluSasql4KkI2h5OhdBZ3Jyb+j1AoGBANgKCgtNiGoafh+iCtyE\ntvqCSK02jiJWUH6d1e18SbNMMM1Ct41sZTqvaoHIecASEHncO0KBedsrNX6sJn+1\nlIv0RI76cDKk2JwgjPj2jrK7xfpSme3JaGiPh8D9mfOgbCHowA+TiK4NSSr7gHiF\n2v7YfEnpeQC/1M5SPx3WXKNw\n-----END PRIVATE KEY-----\n",
+  "client_email": "voice-credentials@voice-kit-test-203016.iam.gserviceaccount.com",
+  "client_id": "107062246711480408109",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voice-credentials%40voice-kit-test-203016.iam.gserviceaccount.com"
+}

@@ -1,0 +1,74 @@
+#include<Servo.h>
+Servo servoright;
+Servo servoleft;
+int time=2000;
+void setup()
+{
+  servoright.attach(12);
+  servoleft.attach(13);
+  Serial.begin(9600);
+}
+void loop()
+{
+  servoleft.writeMicroseconds(1500);
+  servoright.writeMicroseconds(1500);
+  delay(time);
+char c;
+if(Serial.available()>0)
+{
+  c=Serial.read();
+  switch(c)
+  {
+    case'R':
+    servoleft.writeMicroseconds(1600);
+    servoright.writeMicroseconds(1600);
+    delay(time);
+    break;
+    case'L':
+    servoleft.writeMicroseconds(1400);
+    servoright.writeMicroseconds(1400);
+    delay(time);
+    break;
+    case'B':
+    servoleft.writeMicroseconds(1400);
+    servoright.writeMicroseconds(1600);
+    delay(time);
+    break;
+    case'F':
+    servoleft.writeMicroseconds(1600);
+    servoright.writeMicroseconds(1400);
+    delay(time);
+    break;
+    case'E':
+    servoright.writeMicroseconds(1450);
+    servoleft.writeMicroseconds(1700);
+    delay(time);
+    break;
+    case'Q':
+    servoright.writeMicroseconds(1300);
+    servoleft.writeMicroseconds(1550);
+    delay(time);
+    break;
+    case'W':
+    servoright.writeMicroseconds(1480);
+    servoleft.writeMicroseconds(1520);
+    delay(time);
+    break;
+    case'S':
+    servoleft.writeMicroseconds(1480);
+    servoright.writeMicroseconds(1520);
+    delay(time);
+    break;
+    case'D':
+    servoleft.writeMicroseconds(1300);
+    servoright.writeMicroseconds(1550);
+    delay(time);
+    break;
+    case'A':
+    servoleft.writeMicroseconds(1450);
+    servoright.writeMicroseconds(1700);
+    delay(time);
+    break;
+  }
+}
+}

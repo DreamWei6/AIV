@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AIV</string>
+    <string name="title">A.I.V Car</string>
+    <string name="stop">Stop</string>
+    <string name="auto">Auto</string>
+    <string name="connection_require">Connection require</string>
+    <string name="connected">Connect to MQTT broker</string>
+    <string name="connect_failure">Connection failure</string>
+
+    <string name="mqtt_broker_ip">MQTT Broker IP</string>
+    <string name="mqtt_broker_port">MQTT Broker Port</string>
+    <string name="webcam_ip">Webcam IP</string>
+    <string name="setting">setting</string>
+</resources>

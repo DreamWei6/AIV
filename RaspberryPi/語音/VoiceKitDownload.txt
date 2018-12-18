@@ -1,0 +1,23 @@
+git clone https://github.com/DreamWei6/aiyprojects-raspbian voice-recognizer-raspi
+
+cd voice-recognizer-raspi
+scripts/install-deps.sh
+sudo scripts/install-services.sh
+sudo scripts/configure-driver.sh
+sudo scripts/install-alsa-config.sh
+sudo reboot
+
+make deploy
+
+source env/bin/activate
+
+
+========================  Error  ========================
+
+broken pipe =>  rm ~/.asoundrc 
+
+pip install --upgrade google-cloud-storage
+
+https://github.com/etingodf/pyasn1/issues/108
+
+
